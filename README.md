@@ -20,7 +20,6 @@ The goal was to demonstrate the installation, setup, and basic usage of a help d
 - **Screenshot 3:** osTicket admin login page.  
 - **Screenshot 4:** Example ticket created in osTicket dashboard.  
 
-*(Optional: Add more screenshots if you want to show PHP setup, database creation, or other steps.)*
 
 ## Demonstration
 1. Created an Azure VM and logged in using Remote Desktop.  
