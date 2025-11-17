@@ -1,40 +1,48 @@
 <p align="center">
-  <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket Logo" />
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-# osTicket – Prerequisites and Installation
+# osTicket - Prerequisites and Installation
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.
 
-## Project Summary
-In this project, I installed and prepared **osTicket**, an open-source help desk ticketing system, on a **Windows 10 virtual machine** running in **Microsoft Azure**.  
-The project covers installing required components such as **IIS**, **PHP**, **MySQL**, and completing the initial osTicket setup in the browser.
+## Video Demonstration
+YouTube: How To Install osTicket with Prerequisites
 
-**Environments Used:** Azure Virtual Machine, Remote Desktop  
-**Operating System:** Windows 10  
-**Technologies / Tools:** IIS, PHP Manager, URL Rewrite Module, PHP 7.3.8, MySQL 5.5.62, HeidiSQL, osTicket v1.15.8
+## Environments and Technologies Used
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- Internet Information Services (IIS)
 
----
+## Operating Systems Used
+- Windows 10 (21H2)
 
-## Media
+## List of Prerequisites
+- IIS Installed with CGI enabled  
+- PHP Manager for IIS  
+- URL Rewrite Module  
+- PHP 7.3.8  
+- MySQL 5.5.62  
 
-(Add your screenshots in this section)
+## Installation Steps
 
-**Screenshot 1:** Azure VM running Windows 10.  
-**Screenshot 2:** IIS installed with CGI enabled.  
-**Screenshot 3:** PHP registered in IIS.  
-**Screenshot 4:** osTicket folder inside 'wwwroot' and the site loading in browser.  
-**Screenshot 5:** MySQL database created in HeidiSQL.  
-**Screenshot 6:** osTicket installation successful (Admin login page).  
+### *(Screenshot 1 here)*
+Azure Windows 10 VM created and accessed through Remote Desktop.
 
----
+### *(Screenshot 2 here)*
+IIS installed with Application Development Features and CGI enabled.
 
-## Demonstration
-1. Created a Windows 10 VM in Azure and logged in using Remote Desktop.  
-2. Installed IIS and enabled the required web features.  
-3. Installed PHP Manager, URL Rewrite, PHP 7.3.8, and configured PHP inside IIS.  
-4. Installed MySQL and created an 'osTicket' database using HeidiSQL.  
-5. Copied the osTicket files into 'C:\inetpub\wwwroot' and ran the web installer.  
-6. Completed the setup and verified access to both:  
-   - Admin Panel: 'http://localhost/osTicket/scp/login.php'
-   - End-User Portal: 'http://localhost/osTicket/'
+### *(Screenshot 3 here)*
+PHP registered inside IIS (using PHP Manager).
 
-This project demonstrates deploying a help desk ticketing system and configuring the required web and database components in a cloud environment.
+### *(Screenshot 4 here)*
+osTicket files placed in `C:\inetpub\wwwroot` and site loaded in browser.
+
+### *(Screenshot 5 here)*
+Required PHP extensions enabled in IIS (imap, intl, opcache).
+
+### *(Screenshot 6 here)*
+MySQL installed and the `osTicket` database created using HeidiSQL.
+
+### *(Screenshot 7 here)*
+osTicket installation completed and the Admin login page accessible.
+
