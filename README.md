@@ -30,7 +30,7 @@ Azure Windows 10 VM created and accessed through Remote Desktop.
 IIS installed with Application Development Features and CGI enabled.
 
 ### *(Screenshot 3 here)*
-PHP registered inside IIS (using PHP Manager).
+IIS with CGI, URL Rewrite, and PHP Manager installed.
 
 ### *(Screenshot 4 here)*
 osTicket files placed in 'C:\inetpub\wwwroot' and site loaded in browser.
