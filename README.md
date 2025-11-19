@@ -21,18 +21,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - PHP 7.3.8  
 - MySQL 5.5.62  
 
-## Installation Steps
+## Installation Steps:
+
 
 ![ost-prereq ss1](https://github.com/user-attachments/assets/2458c466-829c-439b-bcc2-e17ade76cedf)
 Azure Windows 10 VM created and accessed through Remote Desktop.
 
-### *(Screenshot 2 here)*
+
+<img width="1920" height="1080" alt="ostprereq ss2" src="https://github.com/user-attachments/assets/6e77e511-390d-4b77-8f8d-fa55a13e9b9e" />
 IIS installed with Application Development Features and CGI enabled.
 
-### *(Screenshot 3 here)*
+
+<img width="1920" height="1080" alt="ostprereq ss3" src="https://github.com/user-attachments/assets/e966aecd-2f59-4554-977b-290235ec2a2f" />
 IIS with CGI, URL Rewrite, and PHP Manager installed.
 
-### *(Screenshot 4 here)*
+
+### screenshot4
 osTicket files placed in 'C:\inetpub\wwwroot' and site loaded in browser.
 
 ### *(Screenshot 5 here)*
