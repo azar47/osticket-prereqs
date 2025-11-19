@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ## Installation Steps
 
-### *(Screenshot 1 here)*
+![ost-prereq ss1](https://github.com/user-attachments/assets/2458c466-829c-439b-bcc2-e17ade76cedf)
 Azure Windows 10 VM created and accessed through Remote Desktop.
 
 ### *(Screenshot 2 here)*
